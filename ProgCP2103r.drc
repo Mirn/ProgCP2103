@@ -1,0 +1,264 @@
+P-CAD Design Rule Check Report
+
+======================================================================
+
+E:\gsm\pcb\gate_prog\ProgCP2103r.drc:
+
+
+Design Clearances (in   mm):
+-------------------------------
+Board Edge Clearance:   0.4mm
+Silk Screen Clearance:  Not Defined
+Hole-Hole Clearance:    Not Defined
+
+
+Layer Clearances (in   mm):
+-------------------------------
+
+Layer Name          Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+Top                   0.200     0.200     0.150     0.200     0.200     0.200
+Bottom                0.200     0.200     0.200     0.200     0.200     0.200
+
+
+Net Class Clearances (in   mm):
+-------------------------------
+Net Class Name      Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+
+
+Net Clearances (In   mm):
+-------------------------
+Net Name            Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+
+Net Class To Net Class Clearances (in   mm):
+--------------------------------------------
+Net Class Names     Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+
+
+Area Checked:
+-------------
+
+DRC Extents:            Entire Workspace
+
+
+DRC Report Options:
+-------------------
+
+Net List Compare:                       On
+Clearance Violations:                   On
+Text Violations:                        On
+Same-Parent-Component Pad Violations:   On
+Net List Violations:                    On
+Unrouted Nets:                          On
+Unconnected Pins:                       Off
+Net Length Violations:                  On
+Silk Violations:                        Off
+Copper Pour Violations:                 On
+Plane Violations:                       On
+Component Violations:                   Off
+Drill Violations:                       On
+
+----------------------------------------------------------------------
+
+31-Jan-14  17:07                                            Page    1
+
+P-CAD Design Rule Check Report
+
+======================================================================
+
+Test Point Violations:                  Off
+
+DRC Errors:
+-----------
+
+
+NETLIST VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+CLEARANCE VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+UNROUTED NETS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+Warning: Net length violation tests were not performed because
+         of missing MinNetLength, MaxNetLength, or MatchedLength rules.
+
+NETLIST LENGTH VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+TEXT VIOLATIONS:
+
+Error 1 -- Clearance Violation between:
+   * Text at ( 76.200, 77.470) mm [Bottom layer]
+   * Text=CP2103RPGv01
+   * Arc at ( 77.470, 92.710):( 74.930, 90.170) mm [Board layer]
+   * Calculated Clearance: 0.000mm.
+   * Rule: Design.BoardEdgeClearance=0.4mm
+Error 2 -- Clearance Violation between:
+   * Text at ( 76.200, 77.470) mm [Bottom layer]
+   * Text=CP2103RPGv01
+   * Arc at ( 74.930, 78.740):( 77.470, 76.200) mm [Board layer]
+   * Calculated Clearance: 0.387mm.
+   * Rule: Design.BoardEdgeClearance=0.4mm
+Error 3 -- Clearance Violation between:
+   * Text at ( 76.200, 77.470) mm [Bottom layer]
+   * Text=CP2103RPGv01
+   * Line at ( 96.520, 92.710):( 77.470, 92.710) mm [Board layer]
+   * Calculated Clearance: 0.000mm.
+   * Rule: Design.BoardEdgeClearance=0.4mm
+
+0 warning(s) detected.
+3 error(s) detected.
+
+WIDTH VIOLATIONS:
+
+----------------------------------------------------------------------
+
+31-Jan-14  17:08                                            Page    2
+
+P-CAD Design Rule Check Report
+
+======================================================================
+
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+COPPER POUR VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+PLANE VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+DRILL VIOLATIONS:
+
+Warning: Hole to hole clearance violation tests were not performed because
+         of missing HoleToHoleClearance rule.
+
+0 warning(s) detected.
+0 error(s) detected.
+
+DRC Summary:
+------------
+
+Netlist Compare:
+	Errors:   0
+	Warnings: 0
+Netlist:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Clearance:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Unrouted Nets:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Net Length:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Text:
+	Errors:         3
+	Warnings:       0
+	Ignored Errors: 0
+Width:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Copper Pour:
+	Errors:         0
+
+----------------------------------------------------------------------
+
+31-Jan-14  17:08                                            Page    3
+
+P-CAD Design Rule Check Report
+
+======================================================================
+
+	Warnings:       0
+	Ignored Errors: 0
+Plane:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Drilling:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+
+31-Jan-14  17:08                                            Page    4
+
